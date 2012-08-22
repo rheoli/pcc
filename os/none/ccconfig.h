@@ -46,5 +46,7 @@
 #define	CPPMDADD { "-D__m16c__", NULL, }
 #elif defined(mach_nova)
 #define	CPPMDADD { "-D__nova__", NULL, }
+#elif defined(mach_avr)
+#define	CPPMDADD { "-D__avr__", NULL, }
 #endif
 

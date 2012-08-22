@@ -2077,6 +2077,14 @@ case "$target_os" in
 	esac
 	;;
 
+    none*)
+	targos=none
+	abi=elf
+	case "$target_cpu" in
+		avr) targmach=avr ;;
+	esac
+	;;
+
     openbsd*)
 	targos=openbsd
 	abi=elf
